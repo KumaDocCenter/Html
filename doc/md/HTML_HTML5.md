@@ -51,9 +51,9 @@ top: 1
 
 -   任何的纯文本编辑器都能够编辑html，比如记事本、editplus、notepad++。
 -   比较有名的编辑器有：
--   DreamWeaver (Adobe公司的产品，这个东西过时了)
--   Sublime （高效率的程序书写编辑器） 文本编辑器
--   WebStorm （更高级的项目级别编辑器）这个编辑器它主要是前端开发工程师
+    -   **DreamWeaver** (Adobe公司的产品，这个东西过时了)
+    -   **Sublime** （高效率的程序书写编辑器） 文本编辑器
+    -   **WebStorm** （更高级的项目级别编辑器）这个编辑器它主要是前端开发工程师
 
 
 
@@ -649,7 +649,7 @@ a它是英文中"anchor"简写 ，中文意思"锚" ，就好像是从一个网�
 
 ![](2_image16.png)
 
-不单单只能给文字设置超级链接 ， 同样可以给图片设置超级链接！、
+不单单只能给文字设置超级链接 ， 同样可以给图片设置超级链接！
 
 ![](2_image17.png)
 
@@ -875,7 +875,7 @@ application/x-www-form-urlencoded   //(默认值)
 只有在一种情况下要书写enctype这个属性 ：
 
 ```php
-application/multipart/form-data
+multipart/form-data
 ```
 
 只有在**上传文件**的时候需要使用enctype这个属性 。在上传文件的时候需要将 enctype这个属性的值设置为`multipart/form-data `和`method`这个属性的值一定要设置为**POST **
@@ -1288,7 +1288,7 @@ A本身就只需要使用1个字节来存储！
 <!DOCTYPE html>
 <html>
     <head>
-   		<meta charset="UTF-8"
+   		<meta charset="UTF-8">
     </head>
     <body></body>
 </html>
